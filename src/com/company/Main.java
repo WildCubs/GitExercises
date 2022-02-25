@@ -10,7 +10,7 @@ Scanner keybdINput = new Scanner(System.in);
         String inputName = keybdINput.next();
         System.out.println("Good morning, " + inputName);
     }
-    public void askAboutAge() {
+    public void askforAge() {
         System.out.println("What is your age?");
         int inputAge = keybdINput.nextInt();
         System.out.println(inputAge + " years old? Or young, depending on one's own scope.");
@@ -20,6 +20,6 @@ Scanner keybdINput = new Scanner(System.in);
         System.out.println("Workflow works!");
         Main getMe = new Main();
         getMe.greet();
-        getMe.askAboutAge();
+        getMe.askforAge();
     }
 }
